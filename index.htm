@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="up">
+        <h2>To-Do App</h2>
+        <img src="icon.png" />
+      </div>
+      <hr />
+      <div class="mid">
+        <input type="text" id="task-name" placeholder="Enter Task" />
+        <div>
+          <input id="task-date" type="date" />
+          <input id="task-time" type="time" />
+          <button id="addbtn" onclick="addTask()">Add</button>
+        </div>
+      </div>
+      <hr />
+      <div class="low">
+        <ul id="task-container"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="jsfile.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</html>
